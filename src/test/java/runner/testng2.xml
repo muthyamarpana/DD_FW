@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Test">
+<listeners>
+<listener class-name="extentListeners.ExtentListeners"></listener>
+</listeners>
+     <test thread-count="5" name="Bank Manager Login Test">
+     <parameter name="url" value="https://www.way2automation.com/angularjs-protractor/banking/#/login"></parameter>
+     
+    <classes>
+      <class name="testcases.AddCustomerTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

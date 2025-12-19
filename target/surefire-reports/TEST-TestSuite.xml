@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="18.733" tests="21" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\PlayWright_Automation\workspace\MyPlayWrightProj_New\target\test-classes;C:\PlayWright_Automation\workspace\MyPlayWrightProj_New\target\classes;C:\Users\HP\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\playwright\1.55.0\playwright-1.55.0.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\HP\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver\1.55.0\driver-1.55.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver-bundle\1.55.0\driver-bundle-1.55.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\HP\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\HP\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire7845185013227807926\surefirebooter-20251113223345361_3.jar C:\Users\HP\AppData\Local\Temp\surefire7845185013227807926 2025-11-13T22-33-45_072-jvmRun1 surefire-20251113223345361_1tmp surefire_0-20251113223345361_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\PlayWright_Automation\workspace\MyPlayWrightProj_New\target\test-classes;C:\PlayWright_Automation\workspace\MyPlayWrightProj_New\target\classes;C:\Users\HP\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\playwright\1.55.0\playwright-1.55.0.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\HP\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver\1.55.0\driver-1.55.0.jar;C:\Users\HP\.m2\repository\com\microsoft\playwright\driver-bundle\1.55.0\driver-bundle-1.55.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\HP\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\HP\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\HP\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\PlayWright_Automation\workspace\MyPlayWrightProj_New"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire7845185013227807926\surefirebooter-20251113223345361_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="HP"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="C:\PlayWright_Automation\workspace\MyPlayWrightProj_New"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\HP\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Users\HP\Downloads\terraform_1.7.4_windows_amd64;C:\Program Files\Git\cmd;C:\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\PuTTY\;C:\minikube;C:\Program Files\Amazon\AWSCLIV2\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\k8s;C:\Users\HP\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="test1" classname="testNGWithPlayWright.TestCase1" time="0.0">
+    <system-out><![CDATA[This test executes before test
+This test executes before class
+This test executes before method..
+This is my First Test Case...
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="test2" classname="testNGWithPlayWright.TestCase1" time="0.0">
+    <system-out><![CDATA[This test executes after method..
+This test executes before method..
+This is my Second Test Case...
+]]></system-out>
+  </testcase>
+  <testcase name="LaunchRediff" classname="testNGWithPlayWright.TestCase1" time="0.0">
+    <system-out><![CDATA[This test executes after method..
+This test executes before method..
+This is my Third Test Case...
+]]></system-out>
+  </testcase>
+  <testcase name="LoginRediff" classname="testNGWithPlayWright.TestCase1" time="0.0">
+    <system-out><![CDATA[This test executes after method..
+This test executes before method..
+This is my Fourth Test Case...
+]]></system-out>
+  </testcase>
+  <testcase name="CloseRediff" classname="testNGWithPlayWright.TestCase1" time="0.0">
+    <system-out><![CDATA[This test executes after method..
+This test executes before method..
+This is my Fifth Test Case...
+]]></system-out>
+  </testcase>
+  <testcase name="test1" classname="testNGWithPlayWright.TestCase2" time="0.0">
+    <system-out><![CDATA[This test executes after method..
+This test executes after class
+This test executes before class
+This test executes before method..
+This is my First Test Case...
+]]></system-out>
+  </testcase>
+  <testcase name="test2" classname="testNGWithPlayWright.TestCase2" time="0.0">
+    <system-out><![CDATA[This test executes after method..
+This test executes before method..
+This is my Second Test Case...
+]]></system-out>
+  </testcase>
+  <testcase name="LaunchRediff" classname="testNGWithPlayWright.TestCase2" time="0.0">
+    <system-out><![CDATA[This test executes after method..
+This test executes before method..
+This is my Third Test Case...
+]]></system-out>
+  </testcase>
+  <testcase name="LoginRediff" classname="testNGWithPlayWright.TestCase2" time="0.0">
+    <system-out><![CDATA[This test executes after method..
+This test executes before method..
+This is my Fourth Test Case...
+]]></system-out>
+  </testcase>
+  <testcase name="CloseRediff" classname="testNGWithPlayWright.TestCase2" time="0.0">
+    <system-out><![CDATA[This test executes after method..
+This test executes before method..
+This is my Fifth Test Case...
+]]></system-out>
+  </testcase>
+  <testcase name="handDDList" classname="testNGWithPlayWright.HandlingDropDownList" time="8.81">
+    <system-out><![CDATA[This test executes after method..
+This test executes after class
+total count=76
+Afrikaans	---af
+Shqip	---sq
+العربية	---ar
+Asturianu	---ast
+Azərbaycanca	---az
+Български	---bg
+閩南語 / Bân-lâm-gú	---nan
+বাংলা	---bn
+Беларуская	---be
+Català	---ca
+Čeština	---cs
+Cymraeg	---cy
+Dansk	---da
+Deutsch	---de
+Eesti	---et
+Ελληνικά	---el
+English	---en
+Español	---es
+Esperanto	---eo
+Euskara	---eu
+فارسی	---fa
+Français	---fr
+Galego	---gl
+한국어	---ko
+Հայերեն	---hy
+हिन्दी	---hi
+Hrvatski	---hr
+Bahasa Indonesia	---id
+Italiano	---it
+עברית	---he
+ქართული	---ka
+Ladin	---lld
+Latina	---la
+Latviešu	---lv
+Lietuvių	---lt
+Magyar	---hu
+Македонски	---mk
+Malagasy	---mg
+मराठी	---mr
+مصرى	---arz
+Bahasa Melayu	---ms
+Bahaso Minangkabau	---min
+မြန်မာဘာသာ	---my
+Nederlands	---nl
+日本語	---ja
+Norsk (bokmål)	---nb
+Norsk (nynorsk)	---nn
+Нохчийн	---ce
+Oʻzbekcha / Ўзбекча	---uz
+Polski	---pl
+Português	---pt
+Қазақша / Qazaqşa / قازاقشا	---kk
+Română	---ro
+Simple English	---en
+Sinugboanong Binisaya	---ceb
+Slovenčina	---sk
+Slovenščina	---sl
+Српски / Srpski	---sr
+Srpskohrvatski / Српскохрватски	---sh
+Suomi	---fi
+Svenska	---sv
+Kiswahili	---sw
+தமிழ்	---ta
+Татарча / Tatarça	---tt
+తెలుగు	---te
+ภาษาไทย	---th
+Тоҷикӣ	---tg
+تۆرکجه	---azb
+Türkçe	---tr
+Українська	---uk
+اردو	---ur
+Tiếng Việt	---vi
+Winaray	---war
+中文	---zh
+Русский	---ru
+粵語	---yue
+***************Using Query Selector************
+76
+Afrikaans	---af
+Shqip	---sq
+العربية	---ar
+Asturianu	---ast
+Azərbaycanca	---az
+Български	---bg
+閩南語 / Bân-lâm-gú	---nan
+বাংলা	---bn
+Беларуская	---be
+Català	---ca
+Čeština	---cs
+Cymraeg	---cy
+Dansk	---da
+Deutsch	---de
+Eesti	---et
+Ελληνικά	---el
+English	---en
+Español	---es
+Esperanto	---eo
+Euskara	---eu
+فارسی	---fa
+Français	---fr
+Galego	---gl
+한국어	---ko
+Հայերեն	---hy
+हिन्दी	---hi
+Hrvatski	---hr
+Bahasa Indonesia	---id
+Italiano	---it
+עברית	---he
+ქართული	---ka
+Ladin	---lld
+Latina	---la
+Latviešu	---lv
+Lietuvių	---lt
+Magyar	---hu
+Македонски	---mk
+Malagasy	---mg
+मराठी	---mr
+مصرى	---arz
+Bahasa Melayu	---ms
+Bahaso Minangkabau	---min
+မြန်မာဘာသာ	---my
+Nederlands	---nl
+日本語	---ja
+Norsk (bokmål)	---nb
+Norsk (nynorsk)	---nn
+Нохчийн	---ce
+Oʻzbekcha / Ўзбекча	---uz
+Polski	---pl
+Português	---pt
+Қазақша / Qazaqşa / قازاقشا	---kk
+Română	---ro
+Simple English	---en
+Sinugboanong Binisaya	---ceb
+Slovenčina	---sk
+Slovenščina	---sl
+Српски / Srpski	---sr
+Srpskohrvatski / Српскохрватски	---sh
+Suomi	---fi
+Svenska	---sv
+Kiswahili	---sw
+தமிழ்	---ta
+Татарча / Tatarça	---tt
+తెలుగు	---te
+ภาษาไทย	---th
+Тоҷикӣ	---tg
+تۆرکجه	---azb
+Türkçe	---tr
+Українська	---uk
+اردو	---ur
+Tiếng Việt	---vi
+Winaray	---war
+中文	---zh
+Русский	---ru
+粵語	---yue
+]]></system-out>
+  </testcase>
+  <testcase name="compareFloat" classname="testNGWithPlayWright.AssertExp" time="0.01">
+    <system-out><![CDATA[Assert Executed..
+]]></system-out>
+  </testcase>
+  <testcase name="login[abc, abc111](1)" classname="testNGWithPlayWright.DP_Exp" time="0.004">
+    <system-out><![CDATA[abc	abc111
+]]></system-out>
+  </testcase>
+  <testcase name="login[raj, raj444](2)" classname="testNGWithPlayWright.DP_Exp" time="0.0">
+    <system-out><![CDATA[raj	raj444
+]]></system-out>
+  </testcase>
+  <testcase name="login[dev, dev222](3)" classname="testNGWithPlayWright.DP_Exp" time="0.002">
+    <system-out><![CDATA[dev	dev222
+]]></system-out>
+  </testcase>
+  <testcase name="mouseHoverDemo" classname="testNGWithPlayWright.HandlingMouseHoverActions" time="3.005"/>
+  <testcase name="linksDemo" classname="testNGWithPlayWright.HandlingLinks" time="6.025">
+    <system-out><![CDATA[total number of links=375
+English
+7,069,000+ articles    //en.wikipedia.org/
+日本語
+1,475,000+ 記事    //ja.wikipedia.org/
+Русский
+2 065 000+ статей    //ru.wikipedia.org/
+Deutsch
+3.056.000+ Artikel    //de.wikipedia.org/
+Français
+2 712 000+ articles    //fr.wikipedia.org/
+Español
+2.065.000+ artículos    //es.wikipedia.org/
+中文
+1,503,000+ 条目 / 條目    //zh.wikipedia.org/
+Italiano
+1.938.000+ voci    //it.wikipedia.org/
+Polski
+1 670 000+ haseł    //pl.wikipedia.org/
+Português
+1.156.000+ artigos    //pt.wikipedia.org/
+    //ar.wikipedia.org/
+    //de.wikipedia.org/
+    //en.wikipedia.org/
+    //es.wikipedia.org/
+    //fa.wikipedia.org/
+    //fr.wikipedia.org/
+    //it.wikipedia.org/
+    //arz.wikipedia.org/
+    //nl.wikipedia.org/
+    //ja.wikipedia.org/
+    //pl.wikipedia.org/
+    //pt.wikipedia.org/
+    //ceb.wikipedia.org/
+    //sv.wikipedia.org/
+    //uk.wikipedia.org/
+    //vi.wikipedia.org/
+    //war.wikipedia.org/
+    //zh.wikipedia.org/
+    //ru.wikipedia.org/
+    //af.wikipedia.org/
+    //sq.wikipedia.org/
+    //ast.wikipedia.org/
+    //az.wikipedia.org/
+    //bg.wikipedia.org/
+    //zh-min-nan.wikipedia.org/
+    //bn.wikipedia.org/
+    //be.wikipedia.org/
+    //ca.wikipedia.org/
+    //cs.wikipedia.org/
+    //cy.wikipedia.org/
+    //da.wikipedia.org/
+    //et.wikipedia.org/
+    //el.wikipedia.org/
+    //eo.wikipedia.org/
+    //eu.wikipedia.org/
+    //gl.wikipedia.org/
+    //ko.wikipedia.org/
+    //hy.wikipedia.org/
+    //hi.wikipedia.org/
+    //hr.wikipedia.org/
+    //id.wikipedia.org/
+    //he.wikipedia.org/
+    //ka.wikipedia.org/
+    //lld.wikipedia.org/
+    //la.wikipedia.org/
+    //lv.wikipedia.org/
+    //lt.wikipedia.org/
+    //hu.wikipedia.org/
+    //mk.wikipedia.org/
+    //mg.wikipedia.org/
+    //mr.wikipedia.org/
+    //ms.wikipedia.org/
+    //min.wikipedia.org/
+    //my.wikipedia.org/
+    //no.wikipedia.org/
+    //nn.wikipedia.org/
+    //ce.wikipedia.org/
+    //uz.wikipedia.org/
+    //kk.wikipedia.org/
+    //ro.wikipedia.org/
+    //simple.wikipedia.org/
+    //sk.wikipedia.org/
+    //sl.wikipedia.org/
+    //sr.wikipedia.org/
+    //sh.wikipedia.org/
+    //fi.wikipedia.org/
+    //sw.wikipedia.org/
+    //ta.wikipedia.org/
+    //tt.wikipedia.org/
+    //te.wikipedia.org/
+    //th.wikipedia.org/
+    //tg.wikipedia.org/
+    //azb.wikipedia.org/
+    //tr.wikipedia.org/
+    //ur.wikipedia.org/
+    //zh-yue.wikipedia.org/
+    //ace.wikipedia.org/
+    //als.wikipedia.org/
+    //am.wikipedia.org/
+    //an.wikipedia.org/
+    //hyw.wikipedia.org/
+    //gor.wikipedia.org/
+    //ban.wikipedia.org/
+    //bjn.wikipedia.org/
+    //map-bms.wikipedia.org/
+    //ba.wikipedia.org/
+    //be-tarask.wikipedia.org/
+    //bcl.wikipedia.org/
+    //bpy.wikipedia.org/
+    //bar.wikipedia.org/
+    //bs.wikipedia.org/
+    //br.wikipedia.org/
+    //cv.wikipedia.org/
+    //dag.wikipedia.org/
+    //ary.wikipedia.org/
+    //nv.wikipedia.org/
+    //eml.wikipedia.org/
+    //hif.wikipedia.org/
+    //fo.wikipedia.org/
+    //fy.wikipedia.org/
+    //ff.wikipedia.org/
+    //ga.wikipedia.org/
+    //gd.wikipedia.org/
+    //glk.wikipedia.org/
+    //gu.wikipedia.org/
+    //hak.wikipedia.org/
+    //ha.wikipedia.org/
+    //hsb.wikipedia.org/
+    //io.wikipedia.org/
+    //ig.wikipedia.org/
+    //ilo.wikipedia.org/
+    //ia.wikipedia.org/
+    //ie.wikipedia.org/
+    //os.wikipedia.org/
+    //is.wikipedia.org/
+    //jv.wikipedia.org/
+    //kn.wikipedia.org/
+    //pam.wikipedia.org/
+    //km.wikipedia.org/
+    //avk.wikipedia.org/
+    //ht.wikipedia.org/
+    //ku.wikipedia.org/
+    //ckb.wikipedia.org/
+    //ky.wikipedia.org/
+    //mrj.wikipedia.org/
+    //lb.wikipedia.org/
+    //lij.wikipedia.org/
+    //li.wikipedia.org/
+    //lmo.wikipedia.org/
+    //mai.wikipedia.org/
+    //ml.wikipedia.org/
+    //xmf.wikipedia.org/
+    //mzn.wikipedia.org/
+    //cdo.wikipedia.org/
+    //mn.wikipedia.org/
+    //nap.wikipedia.org/
+    //new.wikipedia.org/
+    //ne.wikipedia.org/
+    //frr.wikipedia.org/
+    //oc.wikipedia.org/
+    //mhr.wikipedia.org/
+    //or.wikipedia.org/
+    //as.wikipedia.org/
+    //pa.wikipedia.org/
+    //pnb.wikipedia.org/
+    //ps.wikipedia.org/
+    //pms.wikipedia.org/
+    //nds.wikipedia.org/
+    //kaa.wikipedia.org/
+    //crh.wikipedia.org/
+    //qu.wikipedia.org/
+    //rue.wikipedia.org/
+    //sa.wikipedia.org/
+    //sat.wikipedia.org/
+    //skr.wikipedia.org/
+    //sah.wikipedia.org/
+    //sco.wikipedia.org/
+    //sn.wikipedia.org/
+    //scn.wikipedia.org/
+    //si.wikipedia.org/
+    //sd.wikipedia.org/
+    //szl.wikipedia.org/
+    //su.wikipedia.org/
+    //shi.wikipedia.org/
+    //tl.wikipedia.org/
+    //shn.wikipedia.org/
+    //zgh.wikipedia.org/
+    //tly.wikipedia.org/
+    //tum.wikipedia.org/
+    //bug.wikipedia.org/
+    //vec.wikipedia.org/
+    //vo.wikipedia.org/
+    //wa.wikipedia.org/
+    //zh-classical.wikipedia.org/
+    //wuu.wikipedia.org/
+    //yi.wikipedia.org/
+    //yo.wikipedia.org/
+    //diq.wikipedia.org/
+    //bat-smg.wikipedia.org/
+    //zu.wikipedia.org/
+    //mni.wikipedia.org/
+    //lad.wikipedia.org/
+    //kbd.wikipedia.org/
+    //ang.wikipedia.org/
+    //smn.wikipedia.org/
+    //anp.wikipedia.org/
+    //ab.wikipedia.org/
+    //roa-rup.wikipedia.org/
+    //frp.wikipedia.org/
+    //atj.wikipedia.org/
+    //arc.wikipedia.org/
+    //gn.wikipedia.org/
+    //av.wikipedia.org/
+    //ay.wikipedia.org/
+    //bbc.wikipedia.org/
+    //bew.wikipedia.org/
+    //bh.wikipedia.org/
+    //bi.wikipedia.org/
+    //bo.wikipedia.org/
+    //bxr.wikipedia.org/
+    //cbk-zam.wikipedia.org/
+    //ny.wikipedia.org/
+    //co.wikipedia.org/
+    //za.wikipedia.org/
+    //dga.wikipedia.org/
+    //se.wikipedia.org/
+    //pdc.wikipedia.org/
+    //dv.wikipedia.org/
+    //dsb.wikipedia.org/
+    //dtp.wikipedia.org/
+    //myv.wikipedia.org/
+    //ext.wikipedia.org/
+    //ee.wikipedia.org/
+    //gur.wikipedia.org/
+    //fon.wikipedia.org/
+    //fur.wikipedia.org/
+    //gv.wikipedia.org/
+    //gag.wikipedia.org/
+    //inh.wikipedia.org/
+    //gpe.wikipedia.org/
+    //ki.wikipedia.org/
+    //gan.wikipedia.org/
+    //guw.wikipedia.org/
+    //xal.wikipedia.org/
+    //haw.wikipedia.org/
+    //rw.wikipedia.org/
+    //iba.wikipedia.org/
+    //kbp.wikipedia.org/
+    //knc.wikipedia.org/
+    //csb.wikipedia.org/
+    //kw.wikipedia.org/
+    //kv.wikipedia.org/
+    //koi.wikipedia.org/
+    //kg.wikipedia.org/
+    //gom.wikipedia.org/
+    //ks.wikipedia.org/
+    //gcr.wikipedia.org/
+    //kge.wikipedia.org/
+    //kus.wikipedia.org/
+    //lo.wikipedia.org/
+    //lbe.wikipedia.org/
+    //ltg.wikipedia.org/
+    //lez.wikipedia.org/
+    //nia.wikipedia.org/
+    //ln.wikipedia.org/
+    //lfn.wikipedia.org/
+    //olo.wikipedia.org/
+    //jbo.wikipedia.org/
+    //lg.wikipedia.org/
+    //mad.wikipedia.org/
+    //mt.wikipedia.org/
+    //btm.wikipedia.org/
+    //mi.wikipedia.org/
+    //fat.wikipedia.org/
+    //mwl.wikipedia.org/
+    //mdf.wikipedia.org/
+    //mnw.wikipedia.org/
+    //mos.wikipedia.org/
+    //nqo.wikipedia.org/
+    //fj.wikipedia.org/
+    //nah.wikipedia.org/
+    //pcm.wikipedia.org/
+    //nds-nl.wikipedia.org/
+    //nrm.wikipedia.org/
+    //nov.wikipedia.org/
+    //om.wikipedia.org/
+    //blk.wikipedia.org/
+    //pi.wikipedia.org/
+    //pag.wikipedia.org/
+    //ami.wikipedia.org/
+    //pap.wikipedia.org/
+    //jam.wikipedia.org/
+    //pfl.wikipedia.org/
+    //pcd.wikipedia.org/
+    //krc.wikipedia.org/
+    //ksh.wikipedia.org/
+    //rm.wikipedia.org/
+    //szy.wikipedia.org/
+    //sm.wikipedia.org/
+    //sc.wikipedia.org/
+    //trv.wikipedia.org/
+    //stq.wikipedia.org/
+    //st.wikipedia.org/
+    //nso.wikipedia.org/
+    //tn.wikipedia.org/
+    //syl.wikipedia.org/
+    //cu.wikipedia.org/
+    //so.wikipedia.org/
+    //srn.wikipedia.org/
+    //ss.wikipedia.org/
+    //ty.wikipedia.org/
+    //kab.wikipedia.org/
+    //roa-tara.wikipedia.org/
+    //tay.wikipedia.org/
+    //tet.wikipedia.org/
+    //tpi.wikipedia.org/
+    //to.wikipedia.org/
+    //chr.wikipedia.org/
+    //tk.wikipedia.org/
+    //tw.wikipedia.org/
+    //kcg.wikipedia.org/
+    //tyv.wikipedia.org/
+    //udm.wikipedia.org/
+    //ug.wikipedia.org/
+    //vep.wikipedia.org/
+    //fiu-vro.wikipedia.org/
+    //vls.wikipedia.org/
+    //wo.wikipedia.org/
+    //xh.wikipedia.org/
+    //zea.wikipedia.org/
+    //alt.wikipedia.org/
+    //awa.wikipedia.org/
+    //dty.wikipedia.org/
+    //tcy.wikipedia.org/
+    //bdr.wikipedia.org/
+    //bm.wikipedia.org/
+    //ch.wikipedia.org/
+    //dz.wikipedia.org/
+    //got.wikipedia.org/
+    //igl.wikipedia.org/
+    //iu.wikipedia.org/
+    //ik.wikipedia.org/
+    //nr.wikipedia.org/
+    //kl.wikipedia.org/
+    //nup.wikipedia.org/
+    //ann.wikipedia.org/
+    //pwn.wikipedia.org/
+    //pnt.wikipedia.org/
+    //rmy.wikipedia.org/
+    //rn.wikipedia.org/
+    //rsk.wikipedia.org/
+    //sg.wikipedia.org/
+    //tdd.wikipedia.org/
+    //ti.wikipedia.org/
+    //din.wikipedia.org/
+    //chy.wikipedia.org/
+    //ts.wikipedia.org/
+    //ve.wikipedia.org/
+    //guc.wikipedia.org/
+    //ady.wikipedia.org/
+    //rki.wikipedia.org/
+    https://meta.wikimedia.org/wiki/Special:MyLanguage/List_of_Wikipedias
+Donate now    https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner&wmf_source=portalBanner_en6C_2526_1006_NewLandingPage&uselang=en&appeal=SupportingWikipedia
+Donate now    https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner&wmf_source=portalBanner_en6C_2526_1006_NewLandingPage&uselang=en&appeal=SupportingWikipedia
+
+Donate now
+    https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner&wmf_source=portalBanner_en6C_2526_1006_NewLandingPage&uselang=en&appeal=SupportingWikipedia
+You can support our work with a donation.    https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalFooter&wmf_source=portalFooter
+Download Wikipedia for Android or iOS    https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications
+Google Play Store    https://play.google.com/store/apps/details?id=org.wikipedia&referrer=utm_source%3Dportal%26utm_medium%3Dbutton%26anid%3Dadmob
+Apple App Store    https://itunes.apple.com/app/apple-store/id324715238?pt=208305&ct=portal&mt=8
+ 
+Commons
+Free media collection    //commons.wikimedia.org/
+ 
+Wikivoyage
+Free travel guide    //www.wikivoyage.org/
+ 
+Wiktionary
+Free dictionary    //www.wiktionary.org/
+ 
+Wikibooks
+Free textbooks    //www.wikibooks.org/
+ 
+Wikinews
+Free news source    //www.wikinews.org/
+ 
+Wikidata
+Free knowledge base    //www.wikidata.org/
+ 
+Wikiversity
+Free learning resources    //www.wikiversity.org/
+ 
+Wikiquote
+Free quote compendium    //www.wikiquote.org/
+ 
+MediaWiki
+Free & open wiki software    //www.mediawiki.org/
+ 
+Wikisource
+Free content library    //www.wikisource.org/
+ 
+Wikispecies
+Free species directory    //species.wikimedia.org/
+ 
+Wikifunctions
+Free function library    //www.wikifunctions.org/
+ 
+Meta-Wiki
+Community coordination & documentation    //meta.wikimedia.org/
+Creative Commons Attribution-ShareAlike License    https://creativecommons.org/licenses/by-sa/4.0/
+Terms of Use    https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+Privacy Policy    https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+]]></system-out>
+  </testcase>
+  <testcase name="doUserReg" classname="testNGWithPlayWright.AssertFail" time="0.0">
+    <system-out><![CDATA[Executing User Registration
+]]></system-out>
+  </testcase>
+  <testcase name="doLogin" classname="testNGWithPlayWright.AssertFail" time="0.0">
+    <system-out><![CDATA[Executing Login Test
+]]></system-out>
+  </testcase>
+  <testcase name="firstTest" classname="testNGWithPlayWright.AssertFail" time="0.0">
+    <system-out><![CDATA[This is my First Test...
+]]></system-out>
+  </testcase>
+  <testcase name="SecondTest" classname="testNGWithPlayWright.AssertFail" time="0.0">
+    <system-out><![CDATA[This is my Second Test...
+]]></system-out>
+  </testcase>
+</testsuite>
